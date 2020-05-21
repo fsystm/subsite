@@ -1,7 +1,6 @@
-body,
-html {
-  /* background-color: gray; */
-  background: url("https://4.bp.blogspot.com/-eqPNLqeDI-w/XI51rOAe22I/AAAAAAAAAts/gBOCnWl70iQc6POs9ORbgAFWip5j-jogACKgBGAs/w0/avengers-endgame-movie-characters-uhdpaper.com-4K-52.jpg")
+
+.homepage {
+  background: url("./background.jpg")
     no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -24,13 +23,13 @@ html {
   margin-right: auto;
   position: relative;
   width: 50%;
-  max-width: 300px;
+  max-width: 320px;
 }
 
 .image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 190px;
 }
 
 .overlay {
@@ -43,8 +42,8 @@ html {
   transition: 0.5s ease;
   opacity: 0;
   color: white;
-  font-size: 20px;
-  padding: 20px;
+  font-size: 17px;
+  padding: 15px;
   text-align: center;
   cursor: pointer;
 }
@@ -52,7 +51,7 @@ html {
 .container:hover .overlay {
   opacity: 1;
 }
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }

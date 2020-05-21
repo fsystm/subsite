@@ -1,0 +1,33 @@
+.moviepage {
+    background: url("./thordarkworld.jpg")
+      no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .homecont{
+      margin-left: -10px;
+      width: 100%;
+      bottom: 0;
+      position: fixed;
+      background: rgb(0, 0, 0);
+      background: rgba(0, 0, 0, 0.5); /* Black see-through */
+      color: #f1f1f1;
+      transition: 0.5s ease;
+      color: white;
+      font-size:25px;
+      padding: 10px;
+      text-align: center;
+      cursor: pointer;
+  }
+  
+  .movieName{
+      opacity: 0.4;
+      font-size: 80px;
+      cursor: pointer;
+      text-align: center;
+      font-style: italic;
+      
+  }
+  
